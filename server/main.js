@@ -21,12 +21,33 @@ var customGetPath = function(){
 
 Meteor.methods({
   'createFile': function () {
-    
 
     console.log(customGetPath());
 
-
-    console.log('create a new file');
-  
+  },
+  'downloadFile': function (){
+    customGetPath()
   }
 });
+
+
+Router.route('/download', function () {
+  
+  var filename = "meteor-xml-download.xml";
+  try {
+    var fs = require('fs');
+    data = fs.readFileSync(customGetPath() + '\\uploads\\test.xml');
+  } catch (err) {
+    console.log(err);
+    this.response.writeHead(404);
+    this.response.end('Error 404 - Not found.');
+    return;
+  }
+
+  var headers = {
+    'Content-type': 'text/xml',
+    'Content-Disposition': 'attachment; filename=' + filename
+  };
+  this.response.writeHead(200, headers);
+  return this.response.end(data);
+}, { where: 'server' });

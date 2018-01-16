@@ -6,13 +6,16 @@
   <h1>Welcome to Meteor!</h1>
 
   {{> createFile}}
+  {{> downloadFile}}
   {{> generatePDF}}
 </body>
 
 <template name="createFile">
   <button>Create a file</button>
 </template>
-
+<template name="downloadFile">
+  <button>Download a file</button>
+</template>
 <template name="generatePDF">
   <button>Create a PDF</button>
 </template>

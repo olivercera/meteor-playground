@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:nomina12="http://www.sat.gob.mx/nomina12"
+	xmlns:catNomina="http://www.sat.gob.mx/sitio_internet/cfd/catalogos/Nomina"
+	xmlns:tdCFDI="http://www.sat.gob.mx/sitio_internet/cfd/tipoDatos/tdCFDI"
+	xmlns:catCFDI="http://www.sat.gob.mx/sitio_internet/cfd/catalogos"
+	xmlns:cfdi="http://www.sat.gob.mx/cfd/3"
+    Version="3.3" Serie="NC" Folio="60" Fecha="2017-09-07T14:46:59"
+    Sello="k2AoJUThrYfSBjhdhZBXWgSKBZmz0Ux1W4G5P1tyyUWHguDjlBn39rDouYkIMx2FpZ/HnCIBU/3Q4OKetZ72MaURH0el+d2uJN5917bpKRe11Fb+dctsuCeo9RxnlTl7yrujFf2repVv2mPYOn3G+HaVmklc4yH38YYiCxQ/fQjSS/Xe2RRRmNHV3H7v8cCGOvozeaPnd/d+SaydeXqidIRX2NZ90uATiLvxY0Saw6JHNogcwsPp9fPDkCR6lAN5EtfqRy3jyHGPodLPdLzj6CZ0vjKsx7/mL1S9TZ2Y8J+O4BMHBl19bfg7pjvzrb81fg==" TipoDeComprobante="E" FormaPago="01" MetodoPago="PUE" LugarExpedicion="06050" NoCertificado="00001000000401806360"
+    Certificado="MIIGbTCCBFWgAwIBAgIUMDAwMDEwMDAwMDA0MDE4MDYzNjAwDQYJKoZIhvcNAQELBQAwggGyMTgwNgYDVQQDDCekrXMV1QoWOUYXk3NPAtX6Hz9H5zHsx7XGa6HgOl+r0alo0XlRdG6tifcUb8PwRAf+vWV9HDsiY1x+rR/Z5Y1Tj1hhf2C6muAM0NWFwcPYZ/36dKLVfFn5MD4TT2A9jN6lSyb13C8E0bYISWDxTrZ96Yr/zTYb21CZKwem/s8pwm3Xc2Lv3JWAgbTbRbJDpqYEnR64kSDhmrFVqiH3WDIXLmA0sjSSvwGOQzHFdfRTHVCnWN+rzRYlm1kI2Qy69hDTwxJQIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAgEAHIQ2INCXzGHcC4ualWgyNs4BMRgnu1/wQlxRXia4tbx2Pv6EfIfNlP+fT2QtdWbz61uOP/lw963szsjYBjAGxDZUftR7jOh4r7VSF7cFrpds8I8B93YXs2N1/qTfqbf6WhJJKgX65QsyQfsFqrBj536Qq7T14YJmSEN+ndj7A429yx5ZGty5XScnBkgxTSV8FTkHjvCoUwnH00BssP6JF734Cbskn7922uut0Vt+UQTgqblwbkDj+eIreUPS+xdBuKtyaBuJeAfGfQM1SgwoKr4zZcAfOnaLHzqOb8ueFtKiqw8p5VNkRN8KEllOEwdSEe8t5ZwXjYYWVMK/H9M07FlOuirCoifB+MUlF3X6zF41BKX0JNG/B5/8x0ylGwtyVpNn7Y9f6ghe5Bxk4tnedLx9IZQ7lzD4CJKdRaOsxwLzL7Z1OTr59b8FnjI8eBPK8eVQFTn7Q2aaNkRL7cUUS3qFgNAv2azKIrbIzB/eBKwtspwHMACaLDNDRKQzWckuw2haOVgtPQPkPs/aduyXTTwGKuCLmofeVWrI3CQ0wrAmXBRJPQKQrM/Uh6AYBjqJrp8eOb1BmP85QdMU101lAiJVy/ZC8NrQT9qlCmk5xwXAMXvDZmmvjIWaajA0nkysO9bsXPFgjuOkyR0xWwJ4zbyvHb9x5bODoGuuWsOYehQ=" SubTotal="5897.00" Descuento="0.00" TipoCambio="1" Moneda="MXN" Total="6840.52" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd   ">
+	<cfdi:Emisor Rfc="123123" Nombre="12312312312" RegimenFiscal="601"/>
+	<cfdi:Receptor Rfc="123123213" Nombre="123123123" UsoCFDI="G03"/>
+	<cfdi:Conceptos>
+		<cfdi:Concepto Cantidad="1.00" ClaveProdServ="01010101" ClaveUnidad="F52" NoIdentificacion="14587" Descripcion="MUEBLE" ValorUnitario="5897.00" Importe="5897.00" Descuento="0.00">
+			<cfdi:Impuestos>
+				<cfdi:Traslados>
+					<cfdi:Traslado Base="5897.00" Impuesto="003" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00"/>
+					<cfdi:Traslado Base="5897.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="943.52"/>
+				</cfdi:Traslados>
+				<cfdi:Retenciones>
+					<cfdi:Retencion Base="5897.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00"/>
+					<cfdi:Retencion Base="5897.00" Impuesto="001" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00"/>
+				</cfdi:Retenciones>
+			</cfdi:Impuestos>
+		</cfdi:Concepto>
+	</cfdi:Conceptos>
+	<cfdi:Impuestos TotalImpuestosRetenidos="0.00" TotalImpuestosTrasladados="943.52">
+		<cfdi:Retenciones>
+			<cfdi:Retencion Impuesto="002" Importe="0.00"/>
+			<cfdi:Retencion Impuesto="001" Importe="0.00"/>
+		</cfdi:Retenciones>
+		<cfdi:Traslados>
+			<cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="943.52"/>
+			<cfdi:Traslado Impuesto="003" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00"/>
+		</cfdi:Traslados>
+	</cfdi:Impuestos>
+	<cfdi:Complemento>
+		<tfd:TimbreFiscalDigital
+			xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" SelloCFD="k2AoJUThrYfSBjhdhZBXWgSKBZ4Q1h6kxXFL+5UERJkhXfmz0Ux1W4G5P1tyyUWHguDjlBn39rDouYkIMx2FpZ/HnCIBU/3Q4OKetZ72MaURH0el+d2uJN5917bpKRe11Fb+dctsuCeo9RxnlTl7yrujFf2repVv2mPYOn3G+HaVmklc4yH38YYiCxQ/fQjSS/Xe2RRRmNHV3H7v8cCGOvozeaPnd/d+SaydeXqidIRX2NZ90uATiLvxY0Saw6JHNogcwsPp9fPDkCR6lAN5EtfqRy3jyHGPodLPdLzj6CZ0vjKsx7/mL1S9TZ2Y8J+O4BMHBl19bfg7pjvzrb81fg==" NoCertificadoSAT="00001000000405332712" RfcProvCertif="FIN1203015JA" UUID="B9AF6943-A00A-4F42-BC63-28FDC112F938" FechaTimbrado="2017-09-07T14:52:55" SelloSAT="OQ+qjT8jTGJmCmeIbWS1OYDxi7eWAnEoLvpu2W1lZyklp5++QR0fBZRSEOJvsuMw1ftLlDRdNze+Sc+jALe9Lih/2hvHxKgd7lb30jUtgqmiLsG8mSk6NTXBKSmqXgU0mokf8EYsLv3V35gYI53jr3zRks3lxhbBo54/Nwa9xyWKa/ifjzU3r2ZxfBN3OOsL8Qr89IwnrxSyRQkkh64KPo75Z12j5MKWsNTN3xuLsFWBd99hDBLxCMF4HbBoyw6uZvUxyA6V4L89Xc9hji8MTY9yGKfJPLUZUcPc5CNQX6MmWtATp+KwSANzLvlU95DotHTsAzyjWbeAL6TCdD1CTw=="/>
+		</cfdi:Complemento>
+	</cfdi:Comprobante>
